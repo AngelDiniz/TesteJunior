@@ -13,7 +13,8 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @AllArgsConstructor
-@EqualsAndHashCode(of ="id")
+@EqualsAndHashCode()
+
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -35,5 +36,8 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private UserType userType;
+
+
+
 
 }
