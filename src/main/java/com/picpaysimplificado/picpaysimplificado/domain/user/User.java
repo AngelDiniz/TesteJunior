@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @AllArgsConstructor
-@EqualsAndHashCode()
+@EqualsAndHashCode(of="id")
 
 public class User {
     @Id
@@ -36,7 +36,6 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private UserType userType;
-
 
 
 

@@ -10,8 +10,8 @@ import com.picpaysimplificado.picpaysimplificado.domain.user.User;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Entity(name = "transaction")
-@Table(name = "transaction")
+@Entity(name = "transactions")
+@Table(name = "transactions")
 @Getter
 @Setter
 @AllArgsConstructor
